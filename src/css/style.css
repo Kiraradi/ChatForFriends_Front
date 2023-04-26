@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#b6b6b6, transparent 1px),
+    linear-gradient(90deg, #b6b6b6, transparent 1px);
+    background-size: 20px 20px; 
+    position: relative;
+}
+
+.ChatForFriends-wrapper {
+    display: flex;
+    max-width: 1250px;
+    padding: 30px 45px;
+    
+    z-index: 1;
+    justify-content: center;
+    margin: 0 auto;
+}
